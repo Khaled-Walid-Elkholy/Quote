@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #f5ededec;
+    padding: 0;
+    margin: auto;
+    background-image: url('download.svg');
+    background-position: center center;
+    background-size: contain;
+
+}
+
+.quote-container{
+    width: 80%;
+    background-color: #cccccc71;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: 0 10px 10px 10px rgba(68, 69, 71, 0.342);
+    /* box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2); */
+
+    border-radius: 15px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.quote-container h1{
+    margin: auto;
+    text-align: center;
+}
+.quote-auther{
+    color: #1c98eb;
+}   
+
+.quote-auther{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quote-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.quote-buttons button{
+    font-size: larger;
+    width: 100px;
+    padding: 6px;
+    background-color: #333333;
+    color: #ccc;
+    
+    border-radius: 10px;
+}
+.quote-buttons button a:hover, .quote-buttons button:hover{
+    color: #3EB1FF;
+}
+
+
+
+.quote-buttons button a{
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    color: #ccc;    
+}
+
+.quote-text i{
+    visibility:hidden;
+}
